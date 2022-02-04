@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: kites-website
+    build: .
+    container_name: kites-website
+    restart: always
+    ports:
+      - "8080:80"
