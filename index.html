@@ -88,6 +88,44 @@
       background-color: grey;
 
     }
+
+    /* ==Impact section== */
+
+    .impact{
+      background-image: url(https://cdn.kites.foundation/img/slide/slide-4.jpg);
+      background-size: cover;
+      padding: 60px 0;
+      position: relative;
+      background-attachment: fixed ;
+    }
+    .impact::before{
+      content: "";
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(148, 144, 140, 0.8);
+      z-index: 9;
+      position: absolute;
+    }
+    .impact .container {
+      z-index: 10;
+      position: relative;
+    }
+    .impact .section-title h2,p{
+      color: rgb(61, 50, 50);
+    }
+    .impact .row h2{
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 48px;
+      color: rgb(236, 230, 230);
+    }
+    .impact .row p{
+      color: whitesmoke;
+    }
+    /* ==Impact section== */
+
   </style>
 </head>
 
@@ -820,6 +858,48 @@
       </div>
     </section><!-- End Whu Us Section -->
     
+    
+    <!--====== Impact Section ====== -->
+    <section id="Impact" class="impact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>The <span>Impact</span> </h2>
+          <p>“Small gestures can have a big impact. Create where it matters.”</p>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="items">
+              <h2><span class="counter text-center">2</span></h2>
+              <p>YEARS</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="items">
+              <h2><span class="counter text-center">10</span>+</h2>
+              <p>STATES</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="items">
+              <h2><span class="counter text-center">5000</span>+</h2>
+              <p>BENEFICIERIES</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+            <div class="items">
+              <h2><span class="counter text-center">3000</span>+</h2>
+              <p>VOLUNTEERS</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- End of Impact Section -->
+
+
 
     <!--Upcoming events Section-->
 
